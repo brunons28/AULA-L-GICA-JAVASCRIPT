@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+    @font-face {
+        font-family: 'Montserrat', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    }
+
+    body{
+        background: rgb(32, 30, 30);
+    }
+    h3 {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .conteiner {
+        margin-left: 19%;
+    }
+
+    .programs-line1 {
+        
+        margin-top: 50px;
+    }
+
+    .programs-line2 {
+        
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 10px;
+        margin-left: 12px;
+        
+    }
+
+    button a {
+        text-decoration: none;
+        color: rgb(0, 251, 255);
+    }
+
+    button {
+  margin: 20px;
+  outline: none;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  color: rgb(0, 251, 255);
+}  
+
+/* 9 */
+.btn-9 {
+  z-index: 2;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn-9:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.btn-9:hover {
+  box-shadow:  4px 4px 6px 0 rgba(0, 255, 238, 0.5),
+              -4px -4px 6px 0 rgba(22, 247, 255, 0.2), 
+    inset -4px -4px 6px 0 rgba(0, 255, 229, 0.5),
+    inset 4px 4px 6px 0 rgba(0, 255, 242, 0.3);
+    color: rgb(0, 251, 255);
+}
+.btn-9:hover:after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  background: #000;
+  box-shadow:  4px 4px 6px 0 rgba(0, 217, 255, 0.5),
+              -4px -4px 6px 0 rgba(0, 255, 247, 0.2), 
+    inset -4px -4px 6px 0 rgba(0, 255, 251, 0.5),
+    inset 4px 4px 6px 0 rgba(0, 255, 213, 0.3);
+}
+
+</style>
+<body>
+    <h3>Exercicios com JavaScript</h3>
+
+    <h4>Click para acessar os Programas</h4> 
+
+    <div class="conteiner">
+        <div class="programs-line1">
+            <a href="ProgramaNumeroMaior.html"><button class="custom-btn btn-9">Programa 01 </button></a>
+            <a href="ProgramaValorNegativoOuPositivo.html"><button class="custom-btn btn-9">Programa 02 </button></a>
+            <a href="ProgramaLer3Valores.html"><button class="custom-btn btn-9">Programa 03 </button></a>
+            <a href="ProgramaNumerosIguais.html"><button class="custom-btn btn-9">Programa 04 </button></a>
+            <a href="ProgramaMedia.html"><button class="custom-btn btn-9">Programa 05 </button></a>
+        </div>
+        <div class="programs-line2">
+            <a href="ProgramaSoma.html"><button class="custom-btn btn-9">Programa 06 </button></a>
+            <a href="Programa02.html"><button class="custom-btn btn-9">Programa 07 </button></a>
+            <a href="ProgramaMediaDeQuatroNumeros.html"><button class="custom-btn btn-9">Programa 08 </button></a>
+            <a href="ProgramaVotação.html"><button class="custom-btn btn-9">Programa 09 </button></a>
+            <a href="ProgramaSenha.html"><button class="custom-btn btn-9">Programa 10 </button></a>
+        </div>
+    </div>   
+
+
+</body>
+</html>
